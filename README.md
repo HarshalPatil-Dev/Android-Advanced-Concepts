@@ -16,7 +16,8 @@ Some other benefits of Data binding.
 8) No limitations comparing with Kotlin synthetic
 
 
-<B>Observables</B>
+<H2>Observables</H2>
+
 Work with observable data objects
 Observability refers to the capability of an object to notify others about changes in its data. The Data Binding Library allows you to make objects, fields, or collections observable.
 
