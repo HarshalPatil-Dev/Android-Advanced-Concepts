@@ -35,6 +35,9 @@ Features
 Coroutines is our recommended solution for asynchronous programming on Android. Noteworthy features include the following:
 
 <B>Lightweight:</B> You can run many coroutines on a single thread due to support for suspension, which doesn't block the thread where the coroutine is running. Suspending saves memory over blocking while supporting many concurrent operations.
+
 <B>Fewer memory leaks:</B> Use structured concurrency to run operations within a scope.
+
 <B>Built-in cancellation support:</B> Cancellation is propagated automatically through the running coroutine hierarchy.
+
 <B>Jetpack integration:</B> Many Jetpack libraries include extensions that provide full coroutines support. Some libraries also provide their own coroutine scope that you can use for structured concurrency.
